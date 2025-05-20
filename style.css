@@ -1,0 +1,125 @@
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #f8f9fb;
+}
+nav {
+    background-color: white !important;  /* Cambia el fondo a blanco */
+    color: black !important;             /* Cambia el texto a negro */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* (opcional) sombra ligera */
+}
+nav a {
+    color: black !important;             /* Asegura que los enlaces también sean visibles */
+}
+
+
+/* Navbar limpia */
+.navbar {
+  background-color: transparent !important;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo img {
+  max-height: 50px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #007bff;
+}
+
+/* Hamburguesa (móvil) */
+.hamburger i {
+  color: #fffafa;
+}
+
+/* Sección "Acerca de" */
+.about-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+  border-top: 4px solid #ffc107;
+}
+
+.about-section h1, h2 {
+  color: #001f3f;
+  font-weight: bold;
+}
+
+.about-section ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-image img {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: #001f3f;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer h4 {
+  margin-bottom: 15px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #ffc107;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.copyright {
+  background-color: #000814;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* Botones */
+.btn, .btn-primary {
+  background-color: #001f3f;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #003366;
+}
